@@ -1,2 +1,7 @@
 f = open('archivo.txt', 'w')
-f.writelines(['Hola\n', 'Estoy escribiendo en un fichero\n'])
+f.write('Primera entrada al archivo\n')
+f.close()
+
+f = open('archivo.txt', 'a')
+f.write('Segunda entrada al archivo\n')
+f.close()
